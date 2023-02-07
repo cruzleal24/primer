@@ -1,0 +1,11 @@
+
+.panel{
+    max-width: 800px;
+    margin: auto;
+    background: rgb(204, 164, 164);
+    text-align: center;
+}
+
+table,  td{
+    border: solid 1px brown;
+}
