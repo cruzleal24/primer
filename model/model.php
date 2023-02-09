@@ -7,7 +7,7 @@ class Modelo{
 
     public function __construct(){
         $this-> Modelo= array();
-        $this-> db= new PDO('mysql:host=localhost, dbname= mvc',"root","");
+        $this-> db= new PDO('mysql:host=localhost; dbname=mvc',"root","");
     }
 
     public function insertar($tabla, $dato){
@@ -19,8 +19,8 @@ class Modelo{
             return false;
         }
     }
-    public function mostrar($tabla, $condicion){
-        $consulta="select * from ".$tabla." where ".$condicion;
+    public function mostrar($tabla){
+        $consulta="select * from ".$tabla;
         $resultado=$this->db->query($consulta);
         while($fila= $resultado->FETCHALL(PDO::FETCH_ASSOC)){
             $this->persona[]=$fila;
