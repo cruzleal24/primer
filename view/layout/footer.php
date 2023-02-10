@@ -1,5 +1,6 @@
      
      
-     <!--Contenido del en pie de la pagina-->
-       </body>
+  <!--Contenido del en pie de la pagina-->
+  </div>
+  </body>
 </html>

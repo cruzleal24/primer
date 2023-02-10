@@ -1,4 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+.page{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+.encabezado{
+    position: absolute;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgb(147, 208, 230);
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.menu{
+    position: relative;
+    left: 100px;
+}
 table tr td{
+    padding-left: 20px;
+    padding-right: 20px;
     border: solid 1px green;
 
 }

@@ -10,6 +10,17 @@
 <body>
     <!--Contenido del en cabezado de la pagina-->
     
-    <p>Aqui va toda la informacion de la pagina  </p>
+    <div class="page">
+    <div class="encabezado">
+        <div class="titulo"><h1><img src="data/logo.png" ></h1></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Galeria</a></li>
 
- 
+        </ul>
+    </div>
+    </div>
+
+    
